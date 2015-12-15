@@ -284,6 +284,7 @@ User Alert
 -------------------------
 */
 /*icon*/
+.fa-question-circle:hover{cursor:pointer;}
 .fa-question-circle:before{
 	font-size: 12px;
 	vertical-align: baseline;
@@ -762,7 +763,7 @@ a.logo {
   	width: 310px;
   	height: 75px;
   	overflow: hidden;
-  	text-indent: -10000px;
+  	/*text-indent: -10000px;*/
   	position: absolute;
   	top: 45px;
   	left: 20px;

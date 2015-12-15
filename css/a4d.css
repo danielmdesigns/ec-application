@@ -182,7 +182,7 @@ textarea {
 #navName{
   position:absolute;
   font-size:12px;
-  line-height:12px;
+  /*line-height:12px;*/
   text-align:right;
   top:13px;
   right:150px;

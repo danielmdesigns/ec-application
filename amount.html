@@ -97,7 +97,7 @@
     </td>
   </tr>
   <tr id="feeTotalLine" class="underline">
-    <td>Regular Fee</td>
+    <td>Advance Fee</td>
     <td>
       <div id="newRegularAmount" class="strikeFee">$1,062</div>
       <span class="green extra-bold-weight">$531</span>
@@ -119,8 +119,8 @@
   <button id="save-info" class="hideOnLoad btn btn-primary btn-lg orange">Save</button>
 </div>
 
-<div class="promo-container js-promo-reveal">
-  <a href="#">Have a promotional code?</a>
+<div id="js-promo-reveal" class="promo-container">
+  <a id="hpc" href="#">Have a promotional code?</a>
   <div class="promo-body hideOnLoad">
     <input id="amount-promo" class="form-control" type="text">
     <a class="promo-apply" href="#">Apply</a>
@@ -184,7 +184,7 @@ $("input[type='range']").on("change", function() {
   $("#animated-text").slideUp("slow");
 });
 //reveal promo
-$(".js-promo-reveal").on("click", function(){
+$("#js-promo-reveal").on("click", function(){
 	$(".promo-body").slideDown("slow");
 });
 });

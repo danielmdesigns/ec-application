@@ -246,6 +246,7 @@ $(".close, #js-buyer-alert, input[id='property-buyer']").on("click", function(){
 //Datepicker
 $(function() {
   $("#proptery-closing").datepicker({
+	beforeShow: function(){$("input[id='property-closing']").blur();},
 	startDate: "today",
     endDate: "+121d",
     autoclose: true,

@@ -224,14 +224,14 @@ textarea {
   left: 7px;
   width: 202px;
   height: 30px;
-  background: transparent url("../img/logos/ecommission-logo-inner-rev.png") top left no-repeat;
+  background: transparent url("img/ecommission-logo-inner-rev.png") top left no-repeat;
 }
 #loginLogo {
   width: 310px;
   height: 75px;
   text-indent: -10000px;
   display:block;
-  background: transparent url("../img/logos/ecommission-logo.png") top left no-repeat;
+  background: transparent url("img/ecommission-logo-inner-rev.png") top left no-repeat;
 }
 
 .productBox {
@@ -513,13 +513,13 @@ table tr td:last-child {
 
 /* footer */
 .a4d #footer {
-  padding-top: 30px;
+  /*padding-top: 30px;*/
   background-color:white;
 }
 .a4d #footer .inner {
   overflow: auto;
-  padding-top: 0px;
-  padding-bottom: 0px;
+  /*padding-top: 0px;*/
+  /*padding-bottom: 0px;*/
   font-size: 10px;
 }
 #footer .text-left {
